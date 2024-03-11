@@ -278,6 +278,7 @@ textarea {
 
 /* #region Hero */
 .hero-page {
+  padding: 72px 0;
   max-width: 320px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -303,6 +304,7 @@ textarea {
 }
 @media only screen and (min-width: 768px) {
   .hero-page {
+    padding: 112px 0;
     max-width: 768px;
     background-image: linear-gradient(
         to bottom,
@@ -324,6 +326,7 @@ textarea {
 }
 @media screen and (min-width: 1158px) {
   .hero-page {
+    padding: 188px 0;
     max-width: 1440px;
     background-image: linear-gradient(
         to bottom,
@@ -344,11 +347,11 @@ textarea {
   }
 }
 .hero-container {
-  padding: 72px 52px;
+  padding: 0 52px;
 }
 @media only screen and (min-width: 768px) {
   .hero-container {
-    padding: 112px 136px;
+    padding: 0 136px;
   }
 }
 .title {
@@ -633,6 +636,7 @@ textarea {
 @media only screen and (min-width: 768px) {
   .portfolio-list {
     column-gap: 24px;
+    flex-direction: inherit;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -640,7 +644,6 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     row-gap: 72px;
-    flex-direction: row;
   }
 }
 .portfolio-list-item {
